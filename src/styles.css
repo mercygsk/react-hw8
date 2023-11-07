@@ -1,0 +1,83 @@
+
+
+
+.sidebar {
+  /* grid-area: sidebar; */
+  background-color: gray;
+  /* border: 1px solid black; */
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: left;
+  padding: 90px 0;
+  
+  
+  }
+
+  .Average{
+    /* grid-area: Average; */
+    background-color: rgb(110, 107, 107);
+    /* border: 1px solid black; */
+    text-align: left;
+    
+  }
+
+  .Review{
+    /* grid-area: Review; */
+    background-color: rgb(110, 107, 107);
+    /* border: 1px solid rgb(58, 55, 55); */
+    text-align: left;
+  }
+  .Sentiment{
+    /* grid-area: Sentiment; */
+    background-color: rgb(110, 107, 107);
+    /* border: 1px solid black; */
+    
+  }
+
+  .Website{
+  /* grid-area: website; */
+    background-color: rgb(110, 107, 107);
+    /* border: 1px solid black; */
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: left;
+    
+  }
+  .box{
+    background-color: black;
+    /* border: 1px solid black; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding: 90px;
+    margin: 30px;
+    margin-top: 70px;
+
+  }
+  body {
+    font-family: Helvetica;
+    color: white;
+    background-color: rgb(219, 224, 211);
+    border: 1px solid black;
+    display: grid;
+  }
+    .layout{
+    display: grid;
+    width: 100%;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: "Average "
+                          "Review"
+                          "Sentiment"
+                          "sidebar"
+                          "website";
+    grid-gap: 30px;
+    background-color: grey;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px
+    
+}
+                     
+
